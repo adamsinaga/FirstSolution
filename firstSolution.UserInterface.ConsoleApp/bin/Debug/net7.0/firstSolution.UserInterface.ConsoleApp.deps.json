@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "firstSolution.UserInterface.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "firstSolution.Domain.ProjectDomain": "1.0.0"
+        },
+        "runtime": {
+          "firstSolution.UserInterface.ConsoleApp.dll": {}
+        }
+      },
+      "firstSolution.Domain.ProjectDomain/1.0.0": {
+        "runtime": {
+          "firstSolution.Domain.ProjectDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "firstSolution.UserInterface.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "firstSolution.Domain.ProjectDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

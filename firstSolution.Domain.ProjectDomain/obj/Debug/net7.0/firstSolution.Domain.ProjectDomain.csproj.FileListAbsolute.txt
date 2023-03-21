@@ -1,0 +1,12 @@
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\bin\Debug\net7.0\firstSolution.Domain.ProjectDomain.deps.json
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\bin\Debug\net7.0\firstSolution.Domain.ProjectDomain.dll
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\bin\Debug\net7.0\firstSolution.Domain.ProjectDomain.pdb
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\firstSolution.Domain.ProjectDomain.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\firstSolution.Domain.ProjectDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\firstSolution.Domain.ProjectDomain.AssemblyInfoInputs.cache
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\firstSolution.Domain.ProjectDomain.AssemblyInfo.cs
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\firstSolution.Domain.ProjectDomain.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\firstSolution.Domain.ProjectDomain.dll
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\refint\firstSolution.Domain.ProjectDomain.dll
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\firstSolution.Domain.ProjectDomain.pdb
+C:\Users\Aluno\source\repos\firstSolution\firstSolution.Domain.ProjectDomain\obj\Debug\net7.0\ref\firstSolution.Domain.ProjectDomain.dll

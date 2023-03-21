@@ -1,0 +1,8 @@
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\bin\Debug\MD5Generator.exe.config
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\bin\Debug\MD5Generator.exe
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\bin\Debug\MD5Generator.pdb
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\obj\Debug\MD5Generator.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\obj\Debug\MD5Generator.exe
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\obj\Debug\MD5Generator.pdb
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\obj\Debug\MD5Generator.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\firstSolution\MD5Generator\obj\Debug\MD5Generator.csproj.SuggestedBindingRedirects.cache

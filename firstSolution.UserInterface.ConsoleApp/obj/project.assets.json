@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "firstSolution.Domain.ProjectDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/firstSolution.Domain.ProjectDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/firstSolution.Domain.ProjectDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "firstSolution.Domain.ProjectDomain/1.0.0": {
+      "type": "project",
+      "path": "../firstSolution.Domain.ProjectDomain/firstSolution.Domain.ProjectDomain.csproj",
+      "msbuildProject": "../firstSolution.Domain.ProjectDomain/firstSolution.Domain.ProjectDomain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "firstSolution.Domain.ProjectDomain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Aluno\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Aluno\\source\\repos\\firstSolution\\firstSolution.UserInterface.ConsoleApp\\firstSolution.UserInterface.ConsoleApp.csproj",
+      "projectName": "firstSolution.UserInterface.ConsoleApp",
+      "projectPath": "C:\\Users\\Aluno\\source\\repos\\firstSolution\\firstSolution.UserInterface.ConsoleApp\\firstSolution.UserInterface.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aluno\\source\\repos\\firstSolution\\firstSolution.UserInterface.ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Aluno\\source\\repos\\firstSolution\\firstSolution.Domain.ProjectDomain\\firstSolution.Domain.ProjectDomain.csproj": {
+              "projectPath": "C:\\Users\\Aluno\\source\\repos\\firstSolution\\firstSolution.Domain.ProjectDomain\\firstSolution.Domain.ProjectDomain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
