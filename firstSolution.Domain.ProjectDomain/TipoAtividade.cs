@@ -11,5 +11,6 @@ namespace firstSolution.Domain.ProjectDomain
             public int TipoAtividadeId { get; set; }
         public int TipoAtividadeID { get; set; }
         public string Descricao { get; set; }
+
         }
 }
