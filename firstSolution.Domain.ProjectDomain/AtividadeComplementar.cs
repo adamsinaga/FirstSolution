@@ -20,8 +20,5 @@ namespace firstSolution.Domain.ProjectDomain
 
         public int AnoFormacao { get; set; }
 
-
-        
-
     }
 }

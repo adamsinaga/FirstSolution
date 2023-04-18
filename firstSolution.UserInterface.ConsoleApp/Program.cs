@@ -1,4 +1,5 @@
 ﻿namespace FirstSolution.UserInterface.Console.ConsoleApp
+
 {
     class Program
     {
@@ -10,18 +11,21 @@
         {
             while (true)
             {
-                System.Console.WriteLine("\n 1-Cadastrar Aluno \r\n 2-Cadastrar Tipo de Atividade \r\n 3-Cadastrar Atividade Complementar \r\n 7-Excluir Aluno \r\n 8-Excluir Tipo de Atividade \r\n 9-Excluir Atividade Complementar \r\n 10-Listar \r\n 11-Sair");
+                System.Console.WriteLine("\n 1-Cadastrar Aluno \r\n 2-Cadastrar Tipo de Atividade " +
+                    "\r\n 3-Cadastrar Atividade Complementar \r\n 7-Excluir Aluno \r\n 8-Excluir Tipo de Atividade " +
+                    "\r\n 9-Excluir Atividade Complementar \r\n 10-Listar \r\n 11-Sair");
                 int op = Int32.Parse(System.Console.ReadLine());
 
                 switch (op)
                 {
                     case 1:
                         //CADASTRAR ALUNO
-                        System.Console.WriteLine("Digite o ID do aluno:");
+                        //fazer validações 
+                        System.Console.WriteLine("Digite o ID do aluno:"); //fazer atribuição automática ao id do aluno 
                         int pessoaID = Int32.Parse(System.Console.ReadLine());
                         System.Console.WriteLine("Digite o nome do aluno:");
                         string nome = System.Console.ReadLine();
-                        System.Console.WriteLine("Digite a data de nascimento do aluno:");
+                        System.Console.WriteLine("Digite a data de nascimento do aluno:");  // incremendo ao id do aluno 
                         DateTime dataNascimento = DateTime.Parse(System.Console.ReadLine());
                         Pessoa p = new Pessoa(pessoaID, nome, dataNascimento);
 
@@ -54,6 +58,11 @@
                         System.Console.WriteLine("ID do Aluno: ");
                         int idAluno = Int32.Parse(System.Console.ReadLine());
                         var aluno = pessoas.Where(x => x.pessoaID == idAluno).SingleOrDefault();
+                        if (aluno == null)
+                        {
+                            System.Console.WriteLine("Aluno não encontrado.");
+                            continue;
+                        }
                         System.Console.WriteLine("Qual instituição? ");
                         string instituicao = System.Console.ReadLine();
                         System.Console.WriteLine("Qual o ano de formação? ");
@@ -97,7 +106,6 @@
                         string novaDescricao = System.Console.ReadLine();
                         atividadeAlterar.descricao = novaDescricao;
 
-
                         break;
 
                     case 6:
@@ -107,7 +115,6 @@
                         var atividadeComplementarAlterar = GetAtividadeComplementar(idAtividadeComplementarAlterar);
                         if (atividadeComplementarAlterar == null) continue;
                         System.Console.WriteLine("digite a");
-
 
                         break;
 
@@ -169,7 +176,7 @@
                                                      + a.anoFormacao);
                         }
                         System.Console.ReadKey();
-
+                        
                         break;
 
                     case 11:
@@ -183,12 +190,20 @@
         private static Pessoa GetPessoa(int pessoaId)
         {
             var pessoa = pessoas.Where(x => x.pessoaID == pessoaId).First();
+            if ( pessoa!= null)
+            {
+                System.Console.WriteLine("Sem pessoa");
+            }
             return pessoa;
         }
 
         private static TipoAtividade GetTipoAtividade(int tipoAtividadeId)
         {
             var atividade = tiposAtividades.Where(x => x.tipoAtividadeId == tipoAtividadeId).First();
+            if (atividade != null)
+            {
+                System.Console.WriteLine("Sem atividade");
+            }
             return atividade;
 
         }
@@ -210,6 +225,7 @@
 
         public AtividadeComplementar(int atividadeComplementarID, DateTime data, Pessoa? aluno, TipoAtividade? tipo, string? instituicao, int anoFormacao)
         {
+            
         }
 
         public string anoFormacao { get; internal set; }
@@ -222,6 +238,7 @@
 
         public TipoAtividade(int tipoAtividadeID, string? descricao)
         {
+            
         }
     }
 
@@ -233,6 +250,9 @@
 
         public Pessoa(int pessoaID, string? nome, DateTime dataNascimento)
         {
+            
         }
     }
 }
+
+//próxima aula acesso a dados
